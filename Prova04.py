@@ -1,0 +1,7 @@
+I=float(input("Digite um numero:"))
+r= I- (0.7/100)
+f= I- (46/100)
+g= I-(32/100)
+print("Primeiro{}.".format(I,r))
+print("Segundo ganhador: {}".format(I,f))
+print("Tericeiro{}.".format(I,g))
