@@ -1,5 +1,5 @@
 
-area = float("qual area")
+area = float(input("qual area")
 comprimento= float(input("Digite numero:"))
 area = altura * comprimento
 listros = area / 3
