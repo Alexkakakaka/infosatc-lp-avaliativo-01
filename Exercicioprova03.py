@@ -1,8 +1,7 @@
-
-area = float(input("qual area")
-comprimento= float(input("Digite numero:"))
-area = altura * comprimento
-listros = area / 3
-qtlatas = litros / 3.6
-valor = (qtlatas * 107.00)
-print("Quantidade de tinta que vai usar: {} ,Quantas tinta sera comprada: {}".format(qtlatas, valor))
+altura = float(input("Digite a altura da parede em metros: "))
+comprimento = float(input("Digite o comprimento : "))
+area = altura*comprimento
+comprimento = area / 3
+litros = comprimento / 3.6
+total = litros*107.00
+print("Você terá que comprar um total de {} litros de tinta valor {}".format(litros, total))
