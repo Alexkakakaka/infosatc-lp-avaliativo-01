@@ -1,6 +1,6 @@
 
 area = float("qual area")
-altura= float(input("Digite numero:"))
+comprimento= float(input("Digite numero:"))
 area = altura * comprimento
 listros = area / 3
 qtlatas = litros / 3.6
