@@ -1,7 +1,8 @@
-I=float(input("Digite um numero:"))
-r= I- (0.7/100)
-f= I- (46/100)
-g= I-(32/100)
-print("Primeiro{}.".format(I,r))
-print("Segundo ganhador: {}".format(I,f))
-print("Tericeiro{}.".format(I,g))
+valor = float(input("Digite o valor do premio:"))
+imposto = valor- 7/100
+valornovo = valor - imposto
+primeiro= valornovo * 46/100
+segundo = valornovo * 32/100
+terceiro = valornovo - (primeiro + segundo)
+print("o Premio doi de r$ {}, o valor desconto ficou R$ {} o imposto ficou R$ {}".format(valor, valornovo, imposto))
+print("O primeiro ganhador ganhou R$ {}, o segundo ganhaou R$ {} eo terceiro ganhador ganhou R$ {}".format(primeiro, segundo, terceiro))
