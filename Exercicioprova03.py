@@ -1,4 +1,4 @@
-altura = float(input("Digite a altura da parede em metros: "))
+altura = float(input("Digite a altura da parede : "))
 comprimento = float(input("Digite o comprimento : "))
 area = altura*comprimento
 comprimento = area / 3
